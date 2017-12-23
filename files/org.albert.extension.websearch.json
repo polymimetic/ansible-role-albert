@@ -1,0 +1,44 @@
+[
+    {
+        "iconPath": "/home/{{ USER }}/.config/albert/icons/google.svg",
+        "name": "Google",
+        "trigger": "gg ",
+        "url": "https://www.google.com/search?q=%s"
+    },
+    {
+        "iconPath": "/home/{{ USER }}/.config/albert/icons/youtube.svg",
+        "name": "Youtube",
+        "trigger": "yt ",
+        "url": "https://www.youtube.com/results?search_query=%s"
+    },
+    {
+        "iconPath": "/home/{{ USER }}/.config/albert/icons/amazon.svg",
+        "name": "Amazon",
+        "trigger": "ama ",
+        "url": "http://www.amazon.com/s/?field-keywords=%s"
+    },
+    {
+        "iconPath": "/home/{{ USER }}/.config/albert/icons/ebay.svg",
+        "name": "Ebay",
+        "trigger": "eb ",
+        "url": "http://www.ebay.com/sch/i.html?_nkw=%s"
+    },
+    {
+        "iconPath": "/home/{{ USER }}/.config/albert/icons/github.svg",
+        "name": "GitHub",
+        "trigger": "gh ",
+        "url": "https://github.com/search?utf8=\u2713&q=%s"
+    },
+    {
+        "iconPath": "/home/{{ USER }}/.config/albert/icons/wikipedia.svg",
+        "name": "Wikipedia",
+        "trigger": "wiki ",
+        "url": "https://en.wikipedia.org/w/index.php?search=%s"
+    },
+    {
+        "iconPath": "/home/{{ USER }}/.config/albert/icons/wolfram.svg",
+        "name": "Wolfram Alpha",
+        "trigger": "=",
+        "url": "https://www.wolframalpha.com/input/?i=%s"
+    }
+]
